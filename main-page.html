@@ -11,6 +11,14 @@
     
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+      * {
+        font-family: "Jua", sans-serif;
+        letter-spacing: 1px;
+        font-weight: 100;
+      }
+    </style>
   </head>
 
   <body>
@@ -44,7 +52,9 @@
                 <!--modal-footer : 모달 창 콘텐츠의 푸터영역-->
                 <div class="modal-footer">
                   <div class="modal-footer-custom">
-                    <button type="button" class="btn login-btn">로그인하기<i class="fas fa-arrow-circle-right login-arrow"></i></button>
+                    <a href="main-page-logined.html">
+                      <button type="button" class="btn login-btn">로그인하기<i class="fas fa-arrow-circle-right login-arrow"></i></button>
+                    </a>
                     <button type="button" class="btn login-sm" 
                     data-bs-dismiss="modal">
                       로그인 취소
@@ -115,45 +125,14 @@
             </div>
              </div>
           <div class="col-md-3"></div>
-        </div>
-
-        <!--검색 카테고리 영역-->
-        <!--2021.09.28 검색 카테고리는 지윤님 html 파일로 대체하기로 함-->
-        <!-- <div class="container" id="search-category">
-          <div class="row">
-            <div class="col-md-12 search-category-box">
-              <div class="search-category-items">
-                <div class="sm-card-inner">
-                  <img class="emoji" src="emoji/hamburger.png" alt="">
-                </div>
-                <div class="sm-card-inner">
-                  아이엠버거
-                </div>
-                <div class="sm-card-inner">
-                  강남역 맛집
-                </div>
-              </div>
-              <div class="search-category-items">2</div>
-              <div class="search-category-items">3</div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 search-category-box">
-
-              <div class="search-category-items">1</div>
-              <div class="search-category-items">2</div>
-              <div class="search-category-items">3</div>
-            </div>
-          </div>
-        </div> -->
-        
+        </div>      
         <!--카드 1 영역-->
         <div class="row main-section-inner">
           <div class="container out-space">
             <h4 class="title-head">열혈 MerchanDiner</h1>
             <h6>최근 1주일동안 활발히 활동한 머천다이너분들입니다.</h3><br>
               <div class="card-box">
-                <a href="map.html">
+                <a href="홍대치킨맛집new.html">
                   <div class="col-md-2 sm-card">
                     <div class="sm-card-inner">
                       <img class="emoji" src="emoji/woman.png" alt="">
@@ -166,61 +145,71 @@
                     </div>
                   </div>
                 </a>
-                <div class="col-md-2 sm-card">
+                <a href="노량진패스트푸드new.html">
+                  <div class="col-md-2 sm-card">
                     <div class="sm-card-inner">
-                    <img class="emoji" src="emoji/cool.png" alt="">
-                  </div>
-                  <div class="sm-card-inner">
-                    정현석
-                  </div>
-                  <div class="sm-card-inner">
-                    5개의 테마
-                  </div>
-                </div>
-                <div class="col-md-2 sm-card">
+                      <img class="emoji" src="emoji/cool.png" alt="">
+                    </div>
                     <div class="sm-card-inner">
-                    <img class="emoji" src="emoji/smile.png" alt="">
-                  </div>
-                  <div class="sm-card-inner">
-                    최재석
-                  </div>
-                  <div class="sm-card-inner">
-                    5개의 테마
-                  </div>
-                </div>
-                <div class="col-md-2 sm-card">
+                      정현석
+                    </div>
                     <div class="sm-card-inner">
-                    <img class="emoji" src="emoji/shiba.png" alt="">
+                      5개의 테마
+                    </div>
                   </div>
-                  <div class="sm-card-inner">
-                    강아지
-                  </div>
-                  <div class="sm-card-inner">
-                    5개의 테마
-                  </div>
-                </div>
-                <div class="col-md-2 sm-card">
+                </a>
+                <a href="map-일식.html">
+                  <div class="col-md-2 sm-card">
                     <div class="sm-card-inner">
-                    <img class="emoji" src="emoji/cat.png" alt="">
-                  </div>
-                  <div class="sm-card-inner">
-                    허지윤
-                  </div>
-                  <div class="sm-card-inner">
-                    5개의 테마
-                  </div>
-                </div>
-                <div class="col-md-2 sm-card">
+                      <img class="emoji" src="emoji/smile.png" alt="">
+                    </div>
                     <div class="sm-card-inner">
-                    <img class="emoji" src="emoji/boy.png" alt="">
+                      최재석
+                    </div>
+                    <div class="sm-card-inner">
+                      5개의 테마
+                    </div>
                   </div>
-                  <div class="sm-card-inner">
-                    장발장
+                </a>
+                <a href="map-디저트.html">
+                  <div class="col-md-2 sm-card">
+                    <div class="sm-card-inner">
+                      <img class="emoji" src="emoji/shiba.png" alt="">
+                    </div>
+                    <div class="sm-card-inner">
+                      강아지
+                    </div>
+                    <div class="sm-card-inner">
+                      5개의 테마
+                    </div>
                   </div>
-                  <div class="sm-card-inner">
-                    5개의 테마
+                </a>
+                <a href="map-school.html">
+                  <div class="col-md-2 sm-card">
+                    <div class="sm-card-inner">
+                      <img class="emoji" src="emoji/cat.png" alt="">
+                    </div>
+                    <div class="sm-card-inner">
+                      허지윤
+                    </div>
+                    <div class="sm-card-inner">
+                      5개의 테마
+                    </div>
                   </div>
-                </div>
+                </a>
+                <a href="map-new.html">
+                  <div class="col-md-2 sm-card">
+                    <div class="sm-card-inner">
+                      <img class="emoji" src="emoji/boy.png" alt="">
+                    </div>
+                    <div class="sm-card-inner">
+                      장발장
+                    </div>
+                    <div class="sm-card-inner">
+                      5개의 테마
+                    </div>
+                  </div>
+                </a>
               </div>
           </div>
         </div>
@@ -230,50 +219,62 @@
             <h4 class="title-head">요즘 뜨는 장소들</h1>
             <h6>머천다이너에서 사랑받고 있는 맛집들을 소개합니다.</h3><br>
               <div class="card-box">
-                <div class="col-md-2 md-card">
-                  <div class="md-card-inner ">
-                    <span class="font-lg">전주식당</span>
+                <a href="Detail-page.html">
+
+                  <div class="col-md-2 md-card">
+                    <div class="md-card-inner ">
+                      <span class="font-lg">전주식당</span>
+                    </div>
+                    <div class="md-card-inner">
+                      <span class="font-sm">서울시 강남구 강남대로 11길</span> 
+                    </div>
+                    <div class="md-card-inner">
+                      <span class="font-sm">#집밥느낌</span>
+                    </div>
                   </div>
-                  <div class="md-card-inner">
-                    <span class="font-sm">서울시 강남구 강남대로 11길</span> 
+                </a>                
+                <a href="Detail-page.html">
+
+                  <div class="col-md-2 md-card">
+                    <div class="md-card-inner">
+                      <span class="font-lg">만랩카페</span>
+                    </div>
+                    <div class="md-card-inner">
+                      <span class="font-sm">서울시 강남구 강남대로 13길</span>
+                    </div>
+                    <div class="md-card-inner">
+                      <span class="font-sm">#마카롱맛집 #혼공족 </span>
+                    </div>
                   </div>
-                  <div class="md-card-inner">
-                   <span class="font-sm">#집밥느낌</span>
+                </a>
+                <a href="Detail-page.html">
+
+                  <div class="col-md-2 md-card">
+                    <div class="md-card-inner">
+                      <span class="font-lg">제육덮밥</span>
+                    </div>
+                    <div class="md-card-inner">
+                      <span class="font-sm">서울시 서초구 서초대로 14길</span>
+                    </div>
+                    <div class="md-card-inner">
+                      <span class="font-sm">#제육맛집 #제주 흑돼지 제육</span>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-2 md-card">
-                  <div class="md-card-inner">
-                    <span class="font-lg">만랩카페</span>
+                </a>
+                <a href="Detail-page.html">
+
+                  <div class="col-md-2 md-card">
+                    <div class="md-card-inner">
+                      <span class="font-lg">돈까스집</span>
+                    </div>
+                    <div class="md-card-inner">
+                      <span class="font-sm">서울시 용산구 이태원로 11길</span>
+                    </div>
+                    <div class="md-card-inner">
+                      <span class="font-sm">#스윙스 #국내산 #밥무한리필</span>
+                    </div>
                   </div>
-                  <div class="md-card-inner">
-                    <span class="font-sm">서울시 강남구 강남대로 13길</span>
-                  </div>
-                  <div class="md-card-inner">
-                    <span class="font-sm">#마카롱맛집 #혼공족 </span>
-                  </div>
-                </div>
-                <div class="col-md-2 md-card">
-                  <div class="md-card-inner">
-                    <span class="font-lg">제육덮밥</span>
-                  </div>
-                  <div class="md-card-inner">
-                    <span class="font-sm">서울시 서초구 서초대로 14길</span>
-                  </div>
-                  <div class="md-card-inner">
-                    <span class="font-sm">#제육맛집 #제주 흑돼지 제육</span>
-                  </div>
-                </div>
-                <div class="col-md-2 md-card">
-                  <div class="md-card-inner">
-                    <span class="font-lg">돈까스집</span>
-                  </div>
-                  <div class="md-card-inner">
-                    <span class="font-sm">서울시 용산구 이태원로 11길</span>
-                  </div>
-                  <div class="md-card-inner">
-                    <span class="font-sm">#스윙스 #국내산 #밥무한리필</span>
-                  </div>
-                </div>
+                </a>
               </div>
           </div>
         </div>
@@ -285,5 +286,6 @@
       <div class="font-sm">Copyrightⓒ B반 6조 All right reserved.</div>
       <div class="font-sm"> Icon reference - https://www.flaticon.com/</div>
     </footer>
+  
   </body>
 </html>

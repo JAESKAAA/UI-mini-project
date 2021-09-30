@@ -2,15 +2,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>상세페이지</title>
+    <title>Merchan, Diner !</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main-page.css">
     <!-- <link rel="stylesheet" href="project-style.css"> -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://kit.fontawesome.com/84aa3774b7.js" crossorigin="anonymous"></script>
     <link rel=”stylesheet” href=”http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css“>
     <style>
+         @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+    * {
+        font-family: "Jua", sans-serif;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
     body {
         background-color: rgb(254, 243, 232);
         display: flex;
@@ -66,14 +73,14 @@
         margin-top: 45px;
         margin-left: 10px;
     }
-
+   
 </style>
 </head>
 <body class="center">
     <!--가게이름 및 주소-->
     <div class="container">
         <div class="input-form-backgroud row">
-            <div class="input-form col-md-12 mx-auto">
+            <div class="input-form col-md-12 mx-auto" style="margin-bottom: 80px;">
                 <h5 class="mb-3" style="color: rgb(160, 28, 85);"><strong>가게이름</strong></h5>
                 <div class="row">
                     <div class="col-md-6 mb-3">
@@ -152,7 +159,12 @@
     
     <!--리뷰저장버튼-->
     <div class="mb-4"></div>
-    <button style="font-size: 15px;" id="red" class="btn btn-primary btn-lg btn-block " type="submit">저장</button>
+    <div class="flex-box-container">
+     <button style="font-size: 15px;" id="red" class="btn btn-primary btn-lg btn-block " type="submit">저장</button>
+     <a href="main-page.html">
+         <button style="font-size: 15px;" id="red" class="btn btn-primary btn-lg btn-block " type="submit">홈으로</button>
+        </a>
+    </div>
 
     <!--하단-->
     <footer class="my-3 text-center text-small">
