@@ -43,8 +43,11 @@
           <button class="btn btn-success wide-button shadow btn-bg-color">
             🥐허지윤님의 커피&베이커리 맛집☕
           </button>
-          <button class="btn btn-success shadow btn-bg-color">
-            <i class="far fa-heart fa-lg"></i>
+          <button class="btn btn-success shadow btn-bg-color" onclick="heart()">
+            <div style="width: 20px; height: 25px;">
+              <img  id="heart" src="images/heart-regular.svg" style="width: 20px; height:20px;"></img>
+              <img  id="heartout" src="images/heart-solid.svg" style="width: 20px; height:20px;"></img>
+            </div>
           </button>
         </div>
         <div class="col-md-4 nav-item-right">
@@ -484,5 +487,25 @@
         boxInner.classList.add("inner-box");
       }
     </script>
+        <!--하트 변경되는 효과-->
+        <script>
+          $(document).ready(function () {
+            /*웹페이지 열었을 때*/
+            $("#heart").show();
+            $("#heartout").hide();
+    
+            /*heart을 클릭했을 때 heartout를 보여줌*/
+            $("#heart").click(function () {
+              $("#heart").hide();
+              $("#heartout").show();
+            });
+    
+            /*heartout를 클릭했을 때 heart을 보여줌*/
+            $("#heartout").click(function () {
+              $("#heart").show();
+              $("#heartout").hide();
+            });
+          });
+        </script>
   </body>
 </html>
